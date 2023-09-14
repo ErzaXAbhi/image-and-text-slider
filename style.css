@@ -8,9 +8,13 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .box {
   position: relative;
-  height: 100vh;
+  height: 110vh;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 
@@ -22,7 +26,7 @@
   z-index: 9999;
   color: #fff;
   font-weight: 500;
-  font-size: 5rem;
+  font-size: 6rem;
   line-height: 1;
 }
 
@@ -33,11 +37,11 @@ img {
   position: fixed;
   object-fit: cover;
   height: 500px;
-  width: 800px;
+  width: 1000px;
 }
 
 .b1 {
-  background-color: #fe0000;
+  background-color: #ed1b24;
 }
 
 .b2 {
